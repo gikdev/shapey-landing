@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="font-inter relative">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shapey! Dev Made Easy...</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./script.js"></script>
+</head>
+<body class="">
+  <section class="max-[1150px]:flex hidden bg-gray-900 text-white w-screen h-screen absolute top-0 left-0 right-0 bottom-0 justify-center items-center z-20">
+    <p>You need a bigger screen ( <= 1200px )</p>
+  </section>
+  <nav class="flex px-14 justify-between items-center py-4 border-b-2 border-[#EFEFEF] absolute top-0 left-0 right-0 z-10">
+    <a href="/" class="hover:scale-150 transition-transform"><img class="" src="./assets/logo.svg" alt=""></a>
+    <ul class="flex gap-8">
+      <li class="transform-colors duration-200 border-b-2 border-transparent hover:border-current text-primary"><a href="#">Home</a></li>
+      <li class="transform-colors duration-200 border-b-2 border-transparent hover:border-current text-[#616161] hover:text-black"><a href="#">About</a></li>
+      <li class="transform-colors duration-200 border-b-2 border-transparent hover:border-current text-[#616161] hover:text-black"><a href="#">Projects</a></li>
+      <li class="transform-colors duration-200 border-b-2 border-transparent hover:border-current text-[#616161] hover:text-black"><a href="#">Services</a></li>
+      <li class="transform-colors duration-200 border-b-2 border-transparent hover:border-current text-[#616161] hover:text-black"><a href="#">Careers</a></li>
+    </ul>
+    <button class="
+      rounded px-4 py-2 border-2 border-primary text-primary text-sm
+      hover:text-white hover:bg-primary hover:scale-110 transform-colors transition-transform duration-200
+      active:scale-90
+    ">Get in chat!</button>
+  </nav>
+  <main class="pl-32 gap-28 flex h-screen">
+    <section class="shrink grow w-3/5 self-center">
+      <h1 class="font-merriweather text-[#020C18] text-[48px] mb-4">Transforming the way organizations define, design, and build software.</h1>
+      <p class="text-[18px] mb-10 text-[#616161] leading-normal">We connect strategy with agile technology delivery and cloud and data services to bring your organization’s most valuable software-driven experiences to life.</p>
+      <button class="
+        rounded px-5 py-3 border-2 border-primary text-white bg-primary
+        transition-transform hover:scale-110
+        active:scale-90
+      ">Get in chat!</button>
+    </section>
+    <section class="w-2/5 shrink-0 grow-0 relative">
+      <span class="absolute right-0 left-0 top-0 h-32 bg-gradient-to-bl from-white from-20% to-50%"></span>
+      <img class="w-full object-cover h-[90%]" src="./assets/big.jpg" alt="Some people brainstorming">
+      <img class="absolute w-64 h-80 object-cover right-0 bottom-0 border-[2rem] border-white border-b-0 border-r-0" src="./assets/small.jpg" alt="Whiteboard and some marker">
+      <img class="absolute top-20 right-44" src="./assets/Square.png" alt="">
+      <img class="absolute top-72 -left-10" src="./assets/Triangle.png" alt="">
+      <img class="absolute bottom-10 right-20" src="./assets/Circle.png" alt="">
+    </section>
+  </main>
+</body>
+</html>
